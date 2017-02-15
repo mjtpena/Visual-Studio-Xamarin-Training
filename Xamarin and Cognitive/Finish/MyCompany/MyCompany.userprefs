@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{F94BCCFC-8ACD-4EDD-B436-A871885B48EA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyCompany.Droid PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyCompany/ViewModels/EmployeeDetailViewModel.cs">
+    <Files>
+      <File FileName="MyCompany/Services/Cognitive/EmotionService.cs" Line="49" Column="23" />
+      <File FileName="MyCompany/Services/Interfaces/IEmotionService.cs" Line="1" Column="1" />
+      <File FileName="MyCompany/Views/EmployeeDetailPage.xaml.cs" Line="12" Column="52" />
+      <File FileName="MyCompany/ViewModels/EmployeeDetailViewModel.cs" Line="35" Column="46" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyCompany.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE648A1B-E3BD-4C0D-9F0D-EEA7440406D3" />
+</Properties>

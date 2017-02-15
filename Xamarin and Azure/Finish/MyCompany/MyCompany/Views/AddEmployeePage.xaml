@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyCompany.AddEmployeePage" xmlns:vm="clr-namespace:MyCompany.ViewModels;assembly=MyCompany">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Text="Save" Clicked="SaveEmployee_Clicked" />
+	</ContentPage.ToolbarItems>
+	<ContentPage.BindingContext>
+		<vm:AddEmployeeViewModel />
+	</ContentPage.BindingContext>
+	<ContentPage.Content>
+		<StackLayout BackgroundColor="{StaticResource Primary}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+			<ContentView Padding="10,40,10,40" VerticalOptions="FillAndExpand">
+				<StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+					<Label Text="Add Employee" TextColor="White" FontAttributes="Bold" FontSize="22" />
+					<Label FontSize="16" Text="Name" TextColor="White" />
+					<Entry Placeholder="Michael John Pena" Text="{Binding Employee.Name}" />
+					<Label FontSize="16" Text="Title" TextColor="White" />
+					<Entry Placeholder="Chief Technology Officer" Text="{Binding Employee.Title}" />
+					<Label FontSize="16" Text="Twitter" TextColor="White" />
+					<Entry Placeholder="mjtpena" Text="{Binding Employee.Twitter}" />
+					<Label FontSize="16" Text="Email" TextColor="White" />
+					<Entry Placeholder="Michael.Pena@gluonconsulting.com" Text="{Binding Employee.Email}" />
+					<Label FontSize="16" Text="Avatar" TextColor="White" />
+					<Entry Placeholder="Image Url Here" Text="{Binding Employee.Avatar}" />
+				</StackLayout>
+			</ContentView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

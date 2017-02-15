@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{F94BCCFC-8ACD-4EDD-B436-A871885B48EA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyCompany.Droid PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyCompany/Services/Azure/DataManager.cs">
+    <Files>
+      <File FileName="MyCompany/Services/Azure/EmployeeAzureService.cs" Line="1" Column="1" />
+      <File FileName="MyCompany/ViewModels/EmployeeViewModel.cs" Line="42" Column="23" />
+      <File FileName="MyCompany/ViewModels/AddEmployeeViewModel.cs" Line="19" Column="55" />
+      <File FileName="MyCompany/Services/Azure/DataManager.cs" Line="120" Column="59" />
+      <File FileName="MyCompany/Constants.cs" Line="6" Column="62" />
+      <File FileName="Droid/MainActivity.cs" Line="21" Column="26" />
+      <File FileName="iOS/AppDelegate.cs" Line="18" Column="4" />
+      <File FileName="MyCompany/Views/EmployeePage.xaml.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyCompany.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE648A1B-E3BD-4C0D-9F0D-EEA7440406D3" />
+</Properties>

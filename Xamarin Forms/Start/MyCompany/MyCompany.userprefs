@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{F94BCCFC-8ACD-4EDD-B436-A871885B48EA}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyCompany.Droid PreferredExecutionTarget="Android.Nexus_5_API_23_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyCompany/Models/Employee.cs">
+    <Files>
+      <File FileName="MyCompany/Models/Employee.cs" Line="5" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyCompany.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CE648A1B-E3BD-4C0D-9F0D-EEA7440406D3" />
+</Properties>
