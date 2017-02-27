@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyCompany.EmployeeDetailPage" xmlns:vm="clr-namespace:MyCompany.ViewModels;assembly=MyCompany">
+	<ContentPage.BindingContext>
+		<vm:EmployeeDetailViewModel />
+	</ContentPage.BindingContext>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+		<StackLayout BackgroundColor="{StaticResource Primary}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+			<ContentView Padding="10,40,10,40" VerticalOptions="FillAndExpand">
+				<StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+					<Image Source="{Binding SelectedEmployee.Avatar}" />
+					<Label Text="{Binding SelectedEmployee.Name}" TextColor="White" FontAttributes="Bold" FontSize="22" />
+					<Label FontSize="16" Text="{Binding SelectedEmployee.Title}" TextColor="White" />
+					<Label FontSize="16" Text="{Binding SelectedEmployee.Email}" TextColor="White" />
+					<Button Text="Compute Emotion" Clicked="ComputeEmotion_Clicked" BackgroundColor="Silver" />
+					<Label FontSize="20" TextColor="White" FontAttributes="Bold" x:Name="EmotionMessage" />
+					<StackLayout IsVisible="{Binding IsBusy}" Padding="32" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
+						<ActivityIndicator IsRunning="{Binding IsBusy}" Color="White" />
+					</StackLayout>
+				</StackLayout>
+			</ContentView>
+		</StackLayout>
+	</Grid>
+</ContentPage>
